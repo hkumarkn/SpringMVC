@@ -1,0 +1,10 @@
+<div data-ng-controller="indexCtrl" data-ng-init="init()">
+	{{name}}
+	<input type="text" data-ng-model="name"/>
+	<form data-ng-submit="save()" novalidate>
+		<input type="submit" value="Update"/>
+	</form>
+	
+	<button ng-click="loadData()">Click me!</button>
+
+</div>
